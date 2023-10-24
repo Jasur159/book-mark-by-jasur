@@ -534,6 +534,10 @@ footer {
   }
 }
 @media screen and (max-width: 1150px) {
+  .nav_content {
+    max-width: 90%;
+  }
+
   .container {
     max-width: 90%;
     margin: 0 auto;
@@ -892,12 +896,10 @@ footer {
     top: 440px;
   }
 }
-@media screen and (max-width:370px) {
-  .head_btns{
+@media screen and (max-width: 370px) {
+  .head_btns {
     flex-direction: column;
-    
   }
-  
 }
 @media screen and (max-width: 340px) {
   .contact_input #email {
@@ -968,8 +970,8 @@ footer {
 }
 @media screen and (max-width: 445px) {
   .features::before {
-height:250px ;
-top: 450px;
+    height: 250px;
+    top: 450px;
   }
 }
 @media screen and (max-width: 350px) {
