@@ -280,7 +280,7 @@ header::after {
   letter-spacing: 0.25px;
 }
 .tips {
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 .tips_top_content {
   display: flex;
@@ -471,7 +471,7 @@ header::after {
   letter-spacing: 0.25px;
 }
 .contact_btn {
-  padding: 10px 24px;
+  padding: 10px 22px;
   background-color: #fa5959;
   color: var(--button-color-content);
 }
