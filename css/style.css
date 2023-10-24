@@ -113,7 +113,7 @@ header::after {
   margin: 0 auto;
 }
 .header_content {
-  padding: 108px 0 181px;
+  padding: 108px 0 140px;
   display: flex;
   justify-content: space-between;
   align-items: center;
