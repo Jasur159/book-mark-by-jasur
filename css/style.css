@@ -113,7 +113,7 @@ header::after {
   margin: 0 auto;
 }
 .header_content {
-  padding: 108px 0 181pxpx;
+  padding: 108px 0 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -280,7 +280,7 @@ header::after {
   letter-spacing: 0.25px;
 }
 .tips {
-  padding-bottom: 150px;
+  padding-bottom: 40px;
 }
 .tips_top_content {
   display: flex;
