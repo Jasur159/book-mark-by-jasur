@@ -644,7 +644,7 @@ footer {
 }
 @media screen and (max-width: 800px) {
   .header_content {
-    padding: 80px 0 140px;
+    padding: 140px 0 140px;
   }
   .icons {
     display: block;
@@ -795,6 +795,7 @@ footer {
     gap: 96px;
   }
   header::after {
+    top: 120px;
     right: -550px;
   }
   .header_text {
@@ -912,6 +913,7 @@ footer {
 }
 @media screen and (max-width: 510px) {
   header::after {
+    top: 120px;
     height: 290px;
     width: 700px;
     right: -290px;
@@ -924,10 +926,17 @@ footer {
     right: -340px;
   }
 }
+@media screen and (max-width: 460px) {
+  header::after {
+    top: 140px;
+    width: 600px;
+    right: -240px;
+  }
 @media screen and (max-width: 402px) {
   header::after {
     width: 600px;
     right: -270px;
+    top: 120px;
   }
 }
 @media screen and (max-width: 380px) {
