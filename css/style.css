@@ -643,14 +643,14 @@ footer {
 }
 @media screen and (max-width: 800px) {
   .header_content {
-    padding: 140px 0 200px;
+    padding: 80px 0 140px;
   }
   .icons {
     display: block;
     font-size: 1.5rem;
   }
   nav {
-    position: fixed;
+    position: relative;
     width: 100%;
     top: 0;
     left: 0;
@@ -988,3 +988,33 @@ footer {
     left: -750px;
   }
 }
+
+
+
+
+
+
+
+
+/* gitni joriy qilish */
+/* 1. Git init
+
+   2. Git add .
+   3. Git commit -m "izoh"
+   4. Git remote add origin => git hub bilan bog'lanish nome
+   git remote add origin git hub link.
+   5. git remote -v => git hub link ulanganmi yo'qmi tekshirish
+   6. git push bog'lanish nomi keyin branchi.
+   ex: git push origin master
+
+
+
+   Agar o'zgartirish kiritilsa
+   1. Git add .
+   2. git commit -m "izoh"
+   3. git push origin master
+
+
+
+
+*/
