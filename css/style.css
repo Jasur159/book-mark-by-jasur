@@ -244,10 +244,10 @@ header::after {
   left: -40px;
   transition: 0.3s ease;
 }
-.features_page_sect p:nth-child(2):hover::after {
-  left: -50px;
+.p1:nth-child(2) p:hover::after {
+  left: -45px;
 }
-.features_page_sect p:nth-child(3):hover::after {
+.p1:nth-child(3) p:hover::after {
   left: -70px;
 }
 .features_main_cont {
@@ -955,8 +955,9 @@ footer {
 }
 @media screen and (max-width: 320px) {
   header::after {
+    top: 110px;
     width: 600px;
-    right: -350px;
+    right: -370px;
     height: 160px;
   }
 }
