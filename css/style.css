@@ -43,7 +43,7 @@ button {
   display: none;
 }
 nav {
-  margin-top: 48px;
+  margin-top: 60px;
 }
 .nav_content {
   display: flex;
@@ -179,7 +179,7 @@ header::after {
   content: "";
   z-index: -1;
   top: 420px;
-  left: -400px;
+  left: -450px;
   width: 1000px;
   height: 352px;
   background: #5267df;
