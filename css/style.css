@@ -95,8 +95,6 @@ nav {
 header {
   position: relative;
   overflow-x: hidden;
-  max-width: 1440px;
-  margin: 0 auto;
 }
 header::after {
   content: "";
@@ -173,8 +171,6 @@ header::after {
   background-color: white;
 }
 .features {
-  max-width: 1440px;
-  margin: 0 auto;
   padding: 0 0 238px;
   position: relative;
   overflow-x: hidden;
