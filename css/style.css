@@ -458,6 +458,7 @@ header::after {
   display: flex;
   gap: 16px;
   align-items: center;
+  
 }
 .contact_input #email {
   outline: none;
@@ -465,7 +466,7 @@ header::after {
   padding: 10px 114px 10px 20px;
   border-radius: 5px;
 
-  color: rgba(36, 42, 69, 0.25);
+  color: rgba(36, 42, 69, 0.55);
   font-size: 14px;
   line-height: 28px;
   letter-spacing: 0.25px;
